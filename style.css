@@ -16,7 +16,7 @@
     list-style-type: none;
     background-color: rgb(34, 34, 34);
     width: 100%;
-    height: 60px;
+    height: 53px;
     font-family:"lora", serif;
     position: fixed;
     top: 0px;
@@ -35,7 +35,7 @@
     display: inline;
     text-decoration: none;
     padding: 30px;
-    line-height: 60px;
+    line-height: 54px;
     letter-spacing: 0.2rem;
 }
 
@@ -81,7 +81,7 @@
 }
 
 #conteudo{
-    height: 60vh;
+    height: 77vh;
     font-family: "lora", serif;
     display: flex;
     flex-direction: column;
@@ -116,7 +116,7 @@
 }
 
 .row-about{
-    height: 75vh;
+    height: 90vh;
     display: flex;
     justify-content: space-evenly;
     color: rgb(0, 17, 36);
@@ -314,7 +314,7 @@ strong{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 30px;
+    font-size: 20px;
     font-family: "lora", serif ;
     color: rgb(255, 255, 255);
     color: rgb(0, 17, 36);
@@ -384,15 +384,15 @@ strong{
 }
 
 .sociais li ul a img{
-    width: 70px;
+    width: 50px;
 }
 
 #link img{
-    width: 110px;
+    width: 90px;
 }
 
 #github img{
-    width: 95px;
+    width: 75px;
 }
 
 #insta{
