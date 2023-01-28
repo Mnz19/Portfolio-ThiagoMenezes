@@ -27,7 +27,7 @@
 }
 
 #menu li a:hover{
-    color: green;
+    color: #128CB8;
 }
 
 #menu li a{
@@ -53,8 +53,8 @@
     margin-top: 109px;
 }
 #highlight{
-    color: rgb(16, 189, 0);
-    font-size: 71px;
+    color: #128CB8;
+    font-size: 80px;
     letter-spacing: 0;
 }
 
@@ -81,26 +81,45 @@
 }
 
 #conteudo{
-    height: 50vh;
+    height: 60vh;
     font-family: "lora", serif;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    /* margin-top: 125px; */
 }
 #conteudo h5{
     margin-top: 125px;
     letter-spacing: 0.4rem;
-    color: green;
+    color: rgb(0, 27, 58);
     line-height: 3;
     font-size: 1.6rem;
 }
+
+#conteudo h2{
+    margin-top: 44px;
+    letter-spacing: 0.1rem;
+    color: rgb(0, 17, 36);
+    font-size: 2.2rem;
+    padding-bottom: 24px;
+}
+
+.expe{
+    display: flex;
+    width: 800px;
+    flex-direction: column;
+    height: 100px;
+}
+
+.expe p{
+    font-size: 1.6rem;
+}
+
 .row-about{
-    height: 60vh;
+    height: 75vh;
     display: flex;
     justify-content: space-evenly;
-    color: rgb(0, 48, 0);
+    color: rgb(0, 17, 36);
     font-family: 'Poppins'
 }
 
@@ -118,7 +137,7 @@
 }
 
 .info{
-    font-size: 2rem;
+    font-size: 1.9rem;
     width: 1000px;
     display: flex;
     justify-content: center;
@@ -165,12 +184,13 @@ strong{
 }
 
 .skills-bar li{
-    background: #a1a1a1;
+    background: #d3d3d3;
     /* position: relative; */
     height: 1.2rem;
     margin-bottom: 2rem;
     width: 19rem;
     border-radius: 10px;
+    border: solid 2px black;
 }
 
 .skills-bar li span{
@@ -179,49 +199,39 @@ strong{
 
 #progress{
     border-radius: 10px;
-    background-color: rgba(1, 134, 12, 0.966);
-    height: 1.2rem;
-    font-size: 17px;
+    background-color: rgba(0, 95, 238, 0.966);
+    height: 17px;
 }
 
 .progress-bar1{
     width: 17rem;
 }
 
-#porcent1{
-    margin-left: 235px;
-}
-
 .progress-bar2{
     width: 250px;
 }
 
-#porcent2{
-    margin-left: 214px;
-}
-
 .progress-bar3{
-    width: 13rem;
-}
-
-#porcent3{
-    margin-left: 173px;
+    width: 10rem;
 }
 
 .progress-bar4{
-    width: 13rem;
+    width: 8rem;
 }
-
-#porcent4{
-    margin-left: 173px;
-}
-
 .progress-bar5{
     width: 250px;
 }
 
-#porcent5{
-    margin-left: 215px;
+.progress-bar6{
+    width:160px ;
+}
+
+.progress-bar7{
+    width:120px ;
+}
+
+.progress-bar8{
+    width:145px ;
 }
 
 #row-button{
@@ -229,7 +239,7 @@ strong{
     font-size: 1.4rem;
     height: 20vh;
     justify-content: center;
-    margin-top: 80px ;
+    margin-top: 170px ;
 }
 
 #buttons a{
@@ -248,31 +258,31 @@ strong{
 
 .button-contact{
     background-color: transparent ;
-    border: 4px solid rgb(0, 48, 0);
-    color: rgb(0, 48, 0);;
+    border: 4px solid rgb(0, 17, 36);
+    color: rgb(0, 17, 36);
     width: 400px;
 }
 
 .button-contact:hover{
     color: rgb(255, 255, 255) ;
-    background-color: rgb(0, 146, 0);
-    border: 4px solid rgb(0, 146, 0);
+    background-color: rgba(0, 95, 238, 0.966);
+    border: 4px solid rgba(0, 95, 238, 0.966);
     transition: .5s all;
 
 }
 
 .button-cv{
-    border: 4px solid rgb(0, 48, 0);
-    background-color: rgb(0, 48, 0);;
+    border: 4px solid rgb(0, 17, 36);
+    background-color: rgb(0, 17, 36);
     color: white;
     width: 400px;
     transition: .5s all ;
 }
 
 .button-cv:hover{
-    background-color: rgb(0, 146, 0);
-    border: 4px solid rgb(0, 146, 0);
-    transition: border 4px solid rgb(0, 146, 0) ;
+    background-color: rgba(0, 95, 238, 0.966);
+    border: 4px solid rgba(0, 95, 238, 0.966);
+    transition: border 4px solid rgba(0, 95, 238, 0.966) ;
 }
 
 #buttons a b{
@@ -289,7 +299,7 @@ strong{
     flex-direction: column;
     align-items: center;
     font-size: 30px;
-    color: rgb(0, 48, 0);
+    color: rgb(0, 17, 36);
     font-family: "lora", serif ;
 }
 .port-1 h5{
@@ -307,7 +317,7 @@ strong{
     font-size: 30px;
     font-family: "lora", serif ;
     color: rgb(255, 255, 255);
-    color: rgb(0, 48, 0);
+    color: rgb(0, 17, 36);
 }
 
 .cont-p1 h5{
@@ -328,6 +338,7 @@ strong{
     align-items: flex-end;
     margin-top: 28px;
     font-family: "lora", serif ;
+    margin-left: 69px;
 }
 
 .cont-img a{
