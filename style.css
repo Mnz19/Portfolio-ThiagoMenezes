@@ -116,7 +116,7 @@
 }
 
 .row-about{
-    height: 90vh;
+    height: 70vh;
     display: flex;
     justify-content: space-evenly;
     color: rgb(0, 17, 36);
@@ -183,6 +183,10 @@ strong{
     margin: 0;
 }
 
+.col-hab{
+
+}
+
 .skills-bar li{
     background: #d3d3d3;
     /* position: relative; */
@@ -204,7 +208,7 @@ strong{
 }
 
 .progress-bar1{
-    width: 17rem;
+    width: 10rem;
 }
 
 .progress-bar2{
@@ -232,6 +236,10 @@ strong{
 
 .progress-bar8{
     width:145px ;
+}
+
+.progress-bar9{
+    width:180px ;
 }
 
 #row-button{
